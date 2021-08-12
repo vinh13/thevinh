@@ -256,11 +256,11 @@ body.page-template-page-fullsingle-me {
   -webkit-animation: fadein 8s;
           animation: fadein 8s; }
   .credit p.copyright {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 14px;
     font-weight: 400;
     opacity: 0.4; 
-    color: rebeccapurple;}
+    color: #fff;}
     .credit p.copyright a {
       color: #fff; }
 
