@@ -114,8 +114,8 @@ body.page-template-page-fullsingle-me {
   background-position: center center;
   background-size: cover; }
   body.page-template-page-fullsingle-me p {
-    margin-bottom: 28px;
-    color: #999999; }
+    /*margin-bottom: 28px;*/
+    color: #fff; }
     @media (max-width: 800px) {
       body.page-template-page-fullsingle-me p {
         font-size: 32px;
@@ -231,7 +231,8 @@ body.page-template-page-fullsingle-me {
           width: 22px;
           height: 22px;
           margin: 0;
-          display: block; }
+          display: block; 
+          background-color: rebeccapurple;}
         .network ul li a .svg-icon path,
         .network ul li a .svg-icon polygon,
         .network ul li a .svg-icon rect {
