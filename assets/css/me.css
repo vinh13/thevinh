@@ -212,12 +212,12 @@ body.page-template-page-fullsingle-me {
           flex-direction: column;
   -webkit-animation: fadein 6s;
           animation: fadein 6s;
-  //margin-top: auto; 
+  margin-top: auto; 
 }
   .network ul {
     -webkit-animation: fadein 6s;
             animation: fadein 6s;
-    margin-top: auto;}
+    /*margin-top: auto;*/}
     .network ul li {
       display: inline-block;
       margin-right: 8px; }
