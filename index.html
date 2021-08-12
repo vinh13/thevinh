@@ -37,6 +37,8 @@
 	<!-- light gallery -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.1.2/lightgallery.min.js" integrity="sha512-S8mTUtBAuX7qdd/CN01TNOX2ygPzGYTiB3IZZZ79JZS+XCDJPjwvAvCo46iZz4DuGFE8ZEnsNaJ78utCT18zGg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.1.2/plugins/zoom/lg-zoom.min.js" integrity="sha512-ICj5fEq3zsbY5VBzWw/9db9Gy4AnalM3CQ5qOt/uWYhDcSOcJx2HHLruLi9hXSdLHOx2nsZRO/I+qs8yYmqUeQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.1.2/plugins/share/lg-share.min.js" integrity="sha512-m6uQEYpkvc5gJvDyS1NO/yERiJpmdif7GVptpV/4wjGVDxpsRPzW2MljV4yJ6XDULNV3oTMgbvwPUYfaLro/mw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.1.2/plugins/hash/lg-hash.min.js" integrity="sha512-HdIkfdhPXoncNqlvcqOxxOvthPdZdbHCA4OHPtMWAZRG19Dc/Pgn3B4ihEmQqa8xZSxIQh9WSC9ZiJcsMg4hgg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body id="fullsingle" class="page-template-page-fullsingle-me">
@@ -184,7 +186,7 @@
 <script>
 	lightGallery(document.getElementById("gallery-container"), {
 	  speed: 500,
-	  plugins: [lgZoom]
+	  plugins: [lgZoom, lgShare, lgHash]
 	});
 </script>
 </html>
