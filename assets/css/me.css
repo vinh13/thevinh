@@ -71,7 +71,11 @@ img.aligncenter {
 
 body {
   background-color: #FFFFFF;
-  border-style: none; }
+  border-style: none; 
+  background-image: linear-gradient(#e8f0ff 0%, white 52.08%);
+  color: #0e3481;
+  min-height: 100vh;
+}
 
 body,
 p,
@@ -110,8 +114,8 @@ body.page-template-page-fullsingle-me {
   line-height: 60px;
   letter-spacing: -0.5px;
   color: #999999;
-  background-image: url("../../images/bk_me.jpeg");
-  background-position: center center;
+  /*background-image: url("../../images/bk_me.jpeg");
+  background-position: center center;*/
   background-size: cover; }
   body.page-template-page-fullsingle-me p {
     /*margin-bottom: 28px;*/
@@ -304,3 +308,16 @@ body.page-template-page-fullsingle-me.me-video {
     height: 100%; }
   body.page-template-page-fullsingle-me.me-video .fs-me {
     background-color: rgba(0, 0, 0, 0.6); }
+
+/*Start light gallery*/
+.header .lead {
+  max-width: 620px;
+}
+
+/** Below CSS is completely optional **/
+
+.gallery-item {
+  width: 200px;
+  padding: 5px;
+}
+/*End light gallery*/
