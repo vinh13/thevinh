@@ -259,9 +259,10 @@ body.page-template-page-fullsingle-me {
     font-size: 12px;
     line-height: 14px;
     font-weight: 400;
-    opacity: 0.4; }
+    opacity: 0.4; 
+    color: rebeccapurple;}
     .credit p.copyright a {
-      color: #999999; }
+      color: #fff; }
 
 body.page-template-page-fullsingle-me.me-video {
   background-image: none; }
