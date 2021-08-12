@@ -131,7 +131,7 @@ body.page-template-page-fullsingle-me {
       padding: 5vh 5vw;
       text-align: center; } }
   .fs-me .me-content {
-    height: 80vh;
+    /*height: 80vh;*/
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
